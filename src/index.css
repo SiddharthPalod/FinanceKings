@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: Utopia, Helvetica, sans-serif, Luisiana;
+  font-family: serif, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   background-color: #262626;
@@ -15,19 +15,16 @@
   overflow-x: hidden;
 }
 
-
-
-/* ---------About--------------- */
-
-/* news css ----------------------------------------------*/
-.newsbg{
-  height: 100vw;
-  background-color: #eeeeee;
-  color: black;
-  display:grid;
+.p{
+  font-family: Kantumruy;
 }
 
-.newsbg .book {
-  perspective: 250vw;
-  transform: translate(10%,-20%);
+.searchbar{
+  position: sticky;
+  top: 0%;
+  z-index: 100;
+}
+
+.searchbar.scrolled{
+    backdrop-filter: blur(20px);
 }
