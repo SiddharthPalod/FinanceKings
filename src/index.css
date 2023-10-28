@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Utopia, Helvetica, sans-serif, Luisiana;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #262626;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+
+
+/* ---------About--------------- */
+
+/* news css ----------------------------------------------*/
+.newsbg{
+  height: 100vw;
+  background-color: #eeeeee;
+  color: black;
+  display:grid;
+}
+
+.newsbg .book {
+  perspective: 250vw;
+  transform: translate(10%,-20%);
+}
