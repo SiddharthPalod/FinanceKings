@@ -14,17 +14,3 @@
   -webkit-text-size-adjust: 100%;
   overflow-x: hidden;
 }
-
-.p{
-  font-family: Kantumruy;
-}
-
-.searchbar{
-  position: sticky;
-  top: 0%;
-  z-index: 100;
-}
-
-.searchbar.scrolled{
-    backdrop-filter: blur(20px);
-}
