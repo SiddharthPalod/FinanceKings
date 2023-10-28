@@ -18,6 +18,8 @@ The core page which fetches news from Newsapi and uses the values of offset,n, a
 If we click these boxes then we are redirected to the main article page in a new tab. We have focussed on keeping a sleek design 
 while maintaining the functionality of the website
 
+On the boxes, I have also used Tilt which adds a nice tilt animation to the box.
+
 ## Technologies
 We learned to use 
 = NewsAPI (first time)
