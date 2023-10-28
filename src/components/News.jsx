@@ -36,7 +36,7 @@ const Box = ({ title, description, image, imagelink }) => {
 
 const News = ({ offset, n, topic }) => {
   const [articles, setArticles] = useState([]);
-  const apiKey = 'cc68e01925fa4ec6af57312ea47948b5';
+  const apiKey = 'API_KEY'; //Add Your NewsAPI key here
   const endpoint = `https://newsapi.org/v2/everything?q=${topic}&apiKey=${apiKey}`;
 
   useEffect(() => {
