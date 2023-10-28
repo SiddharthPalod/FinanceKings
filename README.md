@@ -1,8 +1,26 @@
-# React + Vite
+# Finance Kings
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+We aim to showcase finance-based news quickly with 24/7 real-time updates.
+Note: Our website is completely responsive (aka works for both mobile and desktop)
 
-Currently, two official plugins are available:
+## Installation
+- npm i
+- npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Aboutpg
+Handles basic text for the website 
+
+## Morebtn
+Changes value of n to display more news also added an animated icon to make the loading look realistic
+
+## News
+The core page which fetches news from Newsapi and uses the values of offset,n, and topic inputted by the user gives a list of articles with responsive boxes
+If we click these boxes then we are redirected to the main article page in a new tab. We have focussed on keeping a sleek design 
+while maintaining the functionality of the website
+
+## Technologies
+We learned to use 
+= NewsAPI (first time)
+- Tailwindcss (first time )
+- vite for react as it is faster 
+- react@iconify for icons
